@@ -1,0 +1,26 @@
+{
+  "name": "universal-email-forwarder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnoppinger/universal-email-forwarder.git"
+  },
+  "author": "lnoppinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lnoppinger/universal-email-forwarder/issues"
+  },
+  "homepage": "https://github.com/lnoppinger/universal-email-forwarder#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "imapflow": "^1.0.187",
+    "mailparser": "^3.7.3",
+    "nodemailer": "^7.0.3"
+  },
+  "type": "module"
+}
