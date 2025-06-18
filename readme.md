@@ -9,7 +9,9 @@ version: '3'
 
 services:
   forwarder:
-    build: https://github.com/lnoppinger/universal-email-forwarder
+    build: https://github.com/lnoppinger/universal-email-forwarder.git
+      # If a specific version is required simply add the version with #versionnumber
+      # Example:   https://github.com/lnoppinger/universal-email-forwarder.git#1.0.0
 
     environment:
       - EMAIL=name@example.com
