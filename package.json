@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lnoppinger/universal-email-forwarder#readme",
   "dependencies": {
+    "capture-console": "^1.0.2",
     "dotenv": "^16.5.0",
     "imapflow": "^1.0.187",
     "mailparser": "^3.7.3",
